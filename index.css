@@ -1,0 +1,134 @@
+.container {
+    position: relative;
+  }
+  
+  .text-block {
+    background-color: black;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h1{
+    font-size: 58px;
+  }
+  p{
+    font-size: 24px;
+  }
+
+  h4{
+    margin-top: 10px;
+    padding: 12px;
+    text-align: center;
+    background-color: #212529;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar {
+    display: flex;
+    width: 100%;
+  }
+
+  .col{
+    margin: 2% auto;
+    width: 40%;
+    font-size: small;
+  }
+
+  h5{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  p{
+    font-size: 22px;
+  }
+
+  .overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+  }
+  
+  .paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+  }
+  
+  /*--/ Sections /--*/
+  .sect-4 {
+    padding: 4rem 0;
+  }
+  
+  .sect-pt4 {
+    padding-top: 4rem;
+  }
+  
+  .sect-mt4 {
+    margin-top: 4rem;
+  }
+  
+  /*--/ Title s /--*/
+  .title-s {
+    font-weight: 600;
+    color: azure;
+    font-size: 1.1rem;
+  }
+
+  
+  /*--/ Title Left /--*/
+  .title-box-2 {
+    margin-bottom: 3rem;
+    color: azure;
+  }
+  
+  .title-left {
+    font-size: 2rem;
+    position: relative;
+    color: azure;
+  }
+  
+  .title-left:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+  }
+  
+  /*------/ Box /------*/
+  .box-pl2 {
+    padding-left: 2rem;
+  }
+  
+  .box-shadow-full {
+    margin-top: -160px;
+    height: 500px;
+    position: relative;
+    background-color: #212529;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 100px;
+  }
+  
+  @media (min-width: 768px) {
+    .box-shadow-full {
+      padding: 3rem;
+    }
+  }
+
+  .more-info{
+    color: azure;
+  }
+  
+ 
